@@ -1,0 +1,67 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}body {
+    font-family: Arial, sans-serif;
+    background-image: url(a.avif);
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+.h {
+    font-size: 54px;
+    text-align: center;
+    color: rgb(14, 2, 15);
+}
+.converter-container {
+    background-image: url(z.jpg);
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(14,2,15);
+    text-align: center;
+    width: 300px;
+}
+
+
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f908bd;
+    border-radius: 4px;
+}
+
+.unit-selection {
+    margin-bottom: 15px;
+}
+
+.unit-selection label {
+    display: block;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #d41d09;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #15ee0a;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
